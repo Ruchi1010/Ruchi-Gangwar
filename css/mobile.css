@@ -1,0 +1,119 @@
+@media screen and (min-width: 20px) and (max-width: 426px){
+    .div-info{
+        display: none;
+    }
+    .subtitle{
+        color: white;
+    }
+    .anchor{
+        width: 40px;
+    }
+    .navbar-collapse{
+        background-color: white;
+    }
+    .navbar-toggler-icon{
+        background-image: url("../media/list.svg");
+        fill: white;
+    }
+    .show .nav-link{
+    color: black;
+    }
+    .parallax-content{
+        padding-top: 150px;
+    }
+    .search-box{
+    margin: auto;
+    border-radius: 40px;
+    background: white;
+    width: 280px;
+    height: 40px;
+    padding: 8px 20px;
+    opacity: 0.5;
+    }
+    .search-btn{
+        font-size: 25px;
+        float: right;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-search{
+        opacity: 1;
+        outline: none;
+        border: none;
+        width: 200px;
+    }
+    .container-title{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .title{
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        align-content: center;
+    }
+    .btn-book{
+        border: 1px solid white;
+        color: white;
+        background: transparent;
+        padding: 10px 40px;
+    }
+    .btn-book-link{
+        text-decoration: none;
+        color: white;
+    }
+    .btn-book-link:hover{
+        background-color: white;
+        color: transparent;
+    }
+    .card{
+        margin-top: 50px !important;
+        width: 17rem !important;
+    }
+}
+@media screen and (min-width: 427px) and (max-width: 767px){
+    .input-search {
+        opacity: 1;
+        outline: none;
+        border: none;
+        width: 280px;
+    }
+    .navbar-toggler-icon{
+        background-image: url("../media/list.svg");
+        fill: white;
+    }
+    .search-box {
+        margin: auto;
+        border-radius: 40px;
+        background: white;
+        width: 350px;
+        height: 50px;
+        padding: 12px 20px;
+        opacity: 0.5;
+    }
+    .title{
+        align-content: center;
+        font-size: 50px;
+    }
+    .container-title{
+        text-align: center;
+    }
+    .card{
+        margin-top: 30px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .upper-list{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .card{
+        margin-top: 50px !important;
+    }
+    .col_features{
+        padding: 10px 10px !important;
+    }
+}
+

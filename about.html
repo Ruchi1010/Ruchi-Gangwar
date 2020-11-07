@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<style>
+    .navbar{
+        background-color: black;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        color: #ffffff;
+    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top py-3" id="nav">
+    <div class="container">
+        <a href="index.html"><img class="anchor" src="media/logo.svg" alt="Logo" width="50" /></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mr-3 py-4 px-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-3 py-4 px-3" href="index.html#earnings">Hot Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-3 py-4 px-3" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-3 py-4 px-3" href="contact.html">Get in Touch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-3 py-4 px-3" href="about.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<div class="about-section">
+    <br>
+<br>
+  <h1>About Us</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img\me.jpg" alt="Ruchi Pagal" style="width:100%">
+      <div class="container">
+        <h2>Ruchi</h2>
+        <p class="title">Full Stack Developer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>ruchi@gmail.com</p>
+        <a href="contact.html">
+            <p><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
